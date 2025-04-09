@@ -1,0 +1,120 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootflat/2.0.4/css/bootflat.min.css');
+
+body {
+  width: 960px;
+  background-color: #f5f8fa;
+  font-size: 16px;
+  margin:  0 auto;
+}
+
+.container {
+  width: 100vh;
+  text-align: center;
+}
+
+.contact-link {
+  padding: 2em 1em;
+  margin: 2em 0;
+  font-size: 20px;
+  font-weight: 700;
+  background: #FFF;
+  border: solid 3px #99ffff;/*線*/
+  border-radius: 20px;/*角の丸み*/
+}
+.contact-link p {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.contact-intro {
+  margin-top: 60px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  background: #99ffff; /* 背景色 */
+  color: #fff; /* 文字色 */
+  padding: 16px 40px; /* 上下の余白、左右の余白 */
+  text-decoration: none; /* デフォルトで入るリンクの下線を消す */
+  border: none;
+  border-radius: 20px; /* 角を丸くする */
+}
+
+.btn:hover {
+  background: #1F8E8E;
+}
+
+
+.contact-list {
+  width: 80vh;
+  padding: 1em;
+  margin: 2em auto;
+  background: #FFF;
+  border: solid 3px #99ffff;/*線*/
+  border-radius: 20px;/*角の丸み*/
+}
+
+.contact-list ul {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-list ul li {
+  align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contact-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.cont-msg,
+.cont-env,
+.cont-cate {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.cont-time {
+  text-align: right;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+/*  お問い合わせフォーム入力画面 */
+.contact-form {
+  text-align: left;
+  margin: 40px 0 60px;
+}
+
+.contact-form table {
+  width: 100%;
+  table-layout: auto;
+}
+
+
+.contact-form table td {
+  border: solid 1px #212529;
+  padding: 20px 10px;
+}
+
+
+.contact-form table td label {
+  margin: 0 auto;
+}
+
+.send_btn {
+  text-align: center;
+}
+
+
+
+.nothing-page {
+  margin-top: 40px;
+}

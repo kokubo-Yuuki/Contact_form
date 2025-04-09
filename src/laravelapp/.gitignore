@@ -1,0 +1,29 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+
+# Dockerボリュームやソケットファイルを無視
+Docker/DB/volume/
+
+# node_modules（依存パッケージ）を無視
+node_modules/
+
+# ログファイルを無視
+*.log
+
+# 環境設定ファイル（.env）を無視
+*.env
+
+# mysql.sockを無視
+Docker/DB/volume/mysql.sock
